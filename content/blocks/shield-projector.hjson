@@ -18,3 +18,4 @@ requirements: [
   carbide/2200
   fissile-matter/1200
 ]
+health: 360
