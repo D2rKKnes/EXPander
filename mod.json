@@ -3,9 +3,10 @@
   "displayName": "[[]#aa8888]Expander[[]]",
   "author": "[[]#770606]The_alone[[]]",
   "description": "Unlock [[]accent]hidden content[[]] and [[]red]little more[[]]",
-//  "subtitle": "[[]#f25555]Anuke broke everything again...[[]]",
-  "version": "1.3.4",
+  "subtitle": "[[]#f25555]Hello![[]]",
+  "version": "1.3.5",
   "main": "",
   "minGameVersion": "154",
-  "hidden": true
+  "hidden": true,
+  "repo": "D2rKKnes/EXPander"
 }
