@@ -45,7 +45,7 @@ Planets.verilus.accessible = true
 Planets.verilus.defaultEnv = Env.space | Env.terrestrial
 Planets.verilus.clearSectorOnLose = true;
 
-Events.on(WorldLoadBeginEvent, () => {
+/*Events.on(WorldLoadBeginEvent, () => {
     if(Vars.state.rules.sector == null) return;
 
     let sector = Vars.state.rules.sector;
@@ -59,7 +59,7 @@ Events.on(WorldLoadBeginEvent, () => {
     planet.id = newSeed;
 
     Log.info("New ID applied to " + planet.name + ": " + planet.id);
-});
+});*/
 
 StatusEffects.invincible.alwaysUnlocked = true
 StatusEffects.invincible.show = true
