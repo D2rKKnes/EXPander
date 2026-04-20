@@ -1,0 +1,9 @@
+research: {
+ parent: neoplasia-reactor
+ requirements: [
+  beryllium/600
+  silicon/800
+  dormant-cyst/1400
+ ]
+}
+hidden: false

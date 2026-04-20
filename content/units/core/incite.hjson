@@ -1,0 +1,4 @@
+research: {
+ parent: evoke
+ objectives: [core-citadel]
+}

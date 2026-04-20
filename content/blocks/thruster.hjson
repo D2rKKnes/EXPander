@@ -1,0 +1,8 @@
+research: {
+ parent: scrap-wall-huge
+ objectives: [{
+  type: SectorComplete
+  preset: impact0078
+  }]
+}
+buildVisibility: shown

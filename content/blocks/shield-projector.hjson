@@ -1,0 +1,20 @@
+research: {
+ parent: radar
+ objectives: [fissile-matter, {
+  type: SectorComplete
+  preset: karst
+  }]
+}
+buildVisibility: shown
+requirements: [
+  graphite/6200
+  thorium/3000
+  silicon/5000
+  phase-fabric/3100
+  surge-alloy/2200
+  beryllium/3800
+  tungsten/3800
+  oxide/2500
+  carbide/2200
+  fissile-matter/1200
+]

@@ -1,0 +1,79 @@
+# Copis is a hot planet near Sun
+# The mesh of the planet. At least MultiMesh is supported, so you can put multiple
+# NoiseMesh'es to your planet!
+mesh: [
+  {
+    //basalt
+    type: NoiseMesh
+    planet: copis
+    seed: 98
+    divisions: 4
+    color1: 3c3838
+    color2: 515151
+    radius: 0.698
+    octaves: 4
+    persistence: 1
+    scale: 0.8
+    mag: 0.8
+  }
+  {
+    //slag
+    type: SunMesh
+    planet: copis
+    seed: 268
+    divisions: 4
+    radius: 5
+    octaves: 5
+    persistence: 1.7
+    scale: 1.2
+    pow: 1
+    mag: 1.4
+    colors: [
+      ffa166
+      ff915c
+      ff8152
+      ff7147
+      ff631d
+    ]
+  }
+]
+
+# Make sure this planet is always accessible anytime.
+alwaysUnlocked: false
+defaultCore: core-acropolis
+# This determines the size of the sector grid.
+# Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
+sectorSize: 1
+# Spacing between a parent (this) and satellites.
+orbitSpacing: 1
+orbitRadius: 9.2
+orbitOffset: 180
+# Radius of this planet's sphere. Small or big radius have weird atmosphere.
+radius: 0.75
+# Whether to draw the orbit.
+drawOrbit: false
+# Whether this can be landed on.
+accessible: true
+allowLaunchToNumbered: false
+
+# Toggle day-night cycle.
+updateLighting: false
+# A number used for sector generation. If == -1, planet ID is picked instead.
+sectorSeed: -1
+# Whether this planet is blooming.
+bloom: true
+# This is self-explanatory...
+visible: true
+minZoom: 1.5
+maxZoom: 2.5
+# The color of the planet's icon displayed in top-left dialog.
+iconColor: ffa166
+# Another self-explanatory field...
+hasAtmosphere: true
+atmosphereColor: ff5133
+# Icon's name displayed in top-left dialog.
+icon: planet
+# The parent of the planet.
+parent: sun
+# The parent of the whole solar system the planet is in. Affects lighting.
+solarSystem: sun

@@ -1,0 +1,8 @@
+research: {
+ parent: phase-synthesizer
+ objectives: [{
+  type: SectorComplete
+  preset: karst
+  }]
+}
+buildVisibility: shown

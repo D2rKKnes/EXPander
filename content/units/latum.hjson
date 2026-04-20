@@ -1,0 +1,14 @@
+research: {
+ parent: renale
+ objectives: [{
+  type: SectorComplete
+  preset: origin
+  }]
+ requirements: [
+  thorium/4600
+  silicon/8000
+  tungsten/6000
+  dormant-cyst/12500
+ ]
+}
+hidden: false

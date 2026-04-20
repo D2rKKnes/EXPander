@@ -1,0 +1,16 @@
+captureWave: 40
+difficulty: 9
+sector: 0
+name: "Gier"
+planet: gier
+research: {
+    parent: karst
+    objectives: [
+        core-acropolis, 
+        fissile-matter, 
+        {
+            type: SectorComplete
+            preset: karst
+        }
+    ]
+}

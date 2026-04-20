@@ -1,0 +1,20 @@
+research: {
+ parent: shield-projector
+ objectives: [{
+  type: SectorComplete
+  preset: origin
+  }]
+}
+buildVisibility: shown
+requirements: [
+  graphite/18600
+  thorium/9000
+  silicon/15000
+  phase-fabric/9300
+  surge-alloy/6600
+  beryllium/11400
+  tungsten/11400
+  oxide/7500
+  carbide/6600
+  fissile-matter/3600
+]
