@@ -1,0 +1,11 @@
+{
+  "name": "exp",
+  "displayName": "[[]#aa8888]Expander[[]]",
+  "author": "[[]#770606]The_alone[[]]",
+  "description": "Unlock [[]accent]hidden content[[]] and [[]red]little more[[]]",
+//  "subtitle": "[[]#f25555]Anuke broke everything again...[[]]",
+  "version": "1.3.4",
+  "main": "",
+  "minGameVersion": "154",
+  "hidden": true
+}
