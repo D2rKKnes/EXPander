@@ -18,3 +18,4 @@ requirements: [
   carbide/6600
   fissile-matter/3600
 ]
+health: 640
