@@ -1,4 +1,4 @@
-# The planet's display name. If you want to support multiple languages, use bundles instead!
+/*# The planet's display name. If you want to support multiple languages, use bundles instead!
 localizedName: 1RXS
 radius: 1.8
 
@@ -60,4 +60,4 @@ tidalLock: true
 # The color of the planet's icon displayed in top-left dialog.
 iconColor: 1ec1e3
 # Icon's name displayed in top-left dialog. (commandRally is a circle)
-icon: planet
+icon: planet*/
