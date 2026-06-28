@@ -1,4 +1,4 @@
-# Onixis is a blue gas giant
+/*# Onixis is a blue gas giant
 # The mesh of the planet. At least MultiMesh is supported, so you can put multiple
 # NoiseMesh'es to your planet!
 mesh: [
@@ -157,4 +157,4 @@ icon: planet
 # The parent of the planet.
 parent: 1RXS
 # The parent of the whole solar system the planet is in. Affects lighting.
-solarSystem: 1RXS
+solarSystem: 1RXS*/
