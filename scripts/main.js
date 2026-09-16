@@ -69,7 +69,7 @@ if (!terra) {
     const notCampaignOnly = new BuildVisibility(new Boolp({get: () => Vars.state == null || !Vars.state.isCampaign()}));
 
     Blocks.heatReactor.buildVisibility = notCampaignOnly
-    Blocks.slagСentrifuge.buildVisibility = notCampaignOnly
+    Blocks.slagCentrifuge.buildVisibility = notCampaignOnly
     Blocks.shieldProjector.buildVisibility = notCampaignOnly
     Blocks.shieldProjector.requirements = ItemStack.with(Items.graphite, 6200, Items.thorium, 3000, Items.silicon, 5000, Items.phaseFabric, 3100, Items.surgeAlloy, 2200, Items.beryllium, 3800, Items.tungsten, 3800, Items.oxide, 2500, Items.carbide, 2200, Items.fissileMatter, 1200)
     Blocks.largeShieldProjector.buildVisibility = notCampaignOnly
