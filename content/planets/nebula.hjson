@@ -1,5 +1,5 @@
 # Nebula is a Tantro's ice moon
-mesh:  [
+/*mesh:  [
   {
     //snow
     type: NoiseMesh
@@ -70,3 +70,4 @@ clearSectorOnLose: true
 parent: tantros
 # The parent of the whole solar system the planet is in. Affects lighting.
 solarSystem: sun
+*/
