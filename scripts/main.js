@@ -90,7 +90,7 @@ if (!terra) {
 
     Items.dormantCyst.hidden = false
     Items.fissileMatter.hidden = false
-    Liquids.fissileMatter.hidden = false
+    Liquids.gallium.hidden = false
 
     Weathers.suspendParticles.hidden = false
 
