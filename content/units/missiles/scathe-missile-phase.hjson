@@ -1,7 +1,0 @@
-research: {
-    parent: scathe-missile
-    objectives: [
-        phase-fabric
-    ]
-}
-hidden: false
