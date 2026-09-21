@@ -65,6 +65,11 @@ if (!terra) {
     
     StatusEffects.invincible.alwaysUnlocked = true
     StatusEffects.invincible.show = true
+    StatusEffects.shielded.show = true
+    StatusEffects.muddy.alwaysUnlocked = true
+    StatusEffects.muddy.show = true
+    StatusEffects.slow.show = true
+    StatusEffects.disarmed.show = true
 
     const notCampaignOnly = new BuildVisibility(new Boolp({get: () => Vars.state == null || !Vars.state.isCampaign()}));
 
